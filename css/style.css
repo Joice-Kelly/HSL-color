@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 20px;
+}
+#color-display-hsl{
+  margin: 20px auto;
+  width: 500px;
+  height: 500px;
+  background: black
+}
+#color-ranges-hsl{
+  margin: auto;
+  text-align: center;
+}
+label{
+  font-family: 'regular';
+  font-size: 18px;
+}
+input[type="range"] {
+  width: 200px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
